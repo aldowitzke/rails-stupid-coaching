@@ -1,0 +1,10 @@
+<div class="banner">
+  <p><%= @question %></p>
+  <p>- You</p>
+</div>
+<div id="answer" class="banner">
+  <p><%= @answer %></p>
+  <p>- Coach</p>
+</div>
+
+<%= link_to "Go back!", ask_path, class: "btn btn-default", id:"back-button" %>
